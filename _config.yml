@@ -97,5 +97,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# 将其部署到github上
 deploy:
-  type: ''
+  type: github
+  repository: git@github.com:TinanBao/TinanBao.github.io.git
+  branch: master
