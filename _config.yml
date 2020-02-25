@@ -93,12 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Next # 刚刚存放NEXT主题的文件夹名称
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 # 将其部署到github上
 deploy:
-  type: github
+  type: 'git'
   repository: git@github.com:TinanBao/TinanBao.github.io.git
   branch: master
