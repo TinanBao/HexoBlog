@@ -143,8 +143,8 @@ menu_settings:
 
 sidebar:
   # 侧边栏位置，左或者右
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320

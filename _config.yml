@@ -32,25 +32,25 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+new_post_name: :title.md      # 新文章的名字，默认值 :title.md，注意冒号。
+default_layout: post          # 预设布局
+titlecase: false              # 把标题转换为 title case
+external_link:                # 在新标签中打开链接，有以下三个属性
+  enable: true                # 在新标签中打开链接
+  field: site                 # 对整个网站（site）生效或仅对文章（post）生效，有site和post两个值
+  exclude: ''                 # 需要排除的域名。主域名和子域名如 www 需分别配置
+filename_case: 0              # 把文件名称转换为 (1) 小写或 (2) 大写，0不转换
+render_drafts: false          # 显示草稿
+post_asset_folder: true      # 启动 Asset 文件夹，主要配合图片、音频、视频等使用
+relative_link: false          # 把链接改为与根目录的相对位址
+future: true                  # 显示未来的文章
+highlight:                    # 代码块的设置，有以下的属性
+  enable: true                # 开启代码块高亮
+  line_number: true           #　显示行号
+  auto_detect: false          # 如果未指定语言，则启用自动检测，此处指代码的语言
+  tab_replace: ''             # 用 n 个空格替换 tabs；如果值为空，则不会替换 tabs
+  wrap: true                  # Wrap the code block in <table>
+  hljs: false                 # Use the hljs-* prefix for CSS classes
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
