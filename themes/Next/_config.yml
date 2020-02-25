@@ -40,41 +40,39 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
+  small: /images/logo16.png
+  medium: /images/logo32.png
+  apple_touch_icon: /images/logo64.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 footer:
-  # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  # 网站开始运行的年份
+  since: 2020
 
-  # Icon between year and copyright info.
+  # 网站页脚的图标
   icon:
-    # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
-    # `heart` is recommended with animation in red (#ff0000).
-    name: user
-    # If you want to animate the icon, set it to true.
-    animated: false
-    # Change the color of icon, using Hex Code.
-    color: "#808080"
+    # 我们可以到如下地址查看图标: https://fontawesome.com/v4.7.0/icons/
+    name: heart # 图标的名称
+    animated: true # 图标是否跳动
+    # 图标的颜色，使用16进制设置
+    color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: 
 
   powered:
-    # Hexo link (Powered by Hexo).
-    enable: true
+    # 页脚底部显示由Hexo驱动及版本信息
+    enable: false
     # Version info of Hexo after Hexo link (vX.X.X).
-    version: true
+    version: false
 
   theme:
-    # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    # 页脚底部Next及版本信息显示
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -104,8 +102,8 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -144,7 +142,7 @@ menu_settings:
 # ---------------------------------------------------------------
 
 sidebar:
-  # Sidebar Position.
+  # 侧边栏位置，左或者右
   position: left
   #position: right
 
@@ -154,17 +152,21 @@ sidebar:
   #width: 300
 
   # Sidebar Display (only for Muse | Mist), available values:
-  #  - post    expand on posts automatically. Default.
-  #  - always  expand for all pages automatically.
-  #  - hide    expand only when click on the sidebar toggle icon.
-  #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  # 侧边栏显示，只在Muse及Mist风格下有效
+  #  - post    自动显示侧边栏，即在文章正文页打开侧边栏
+  #  - always  始终显示侧边栏
+  #  - hide    隐藏侧边栏,即不打开侧边栏，但是显示侧边栏按钮
+  #  - remove  移除侧边栏
+  display: hide
 
   # Sidebar padding in pixels.
+  # 侧边栏像素填充大小
   padding: 18
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  # 侧边栏从顶部便宜的像素点
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
+  # 是否在手机中显示侧边栏（此处也指窄视图）
   onmobile: false
 
 # Sidebar Avatar

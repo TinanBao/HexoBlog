@@ -2,14 +2,14 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+# Site 网站的信息
+title: TinanBao             #网站的标题
+subtitle: 'Tinanbao的个人博客'            #网站的副标题
+description: '交给时间，都是最好的安排'         #网站的描述信息
+keywords: Next,计算机基础,计算机一级,计算机二级,操作系统               #网站的关键词，使用英文状态下半角逗号 ','隔开，分隔多个关键词。
+author: TinanBao        # 网站的作者
+language: zh-CN            # 网站所使用的语言
+timezone: ''            # 网站的时区，请参考时区列表设置，国内可以使用 Asia/Shanghai。
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
