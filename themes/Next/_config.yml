@@ -248,16 +248,18 @@ excerpt_description: true
 read_more_btn: true
 
 # Post meta display settings
+# 文章提示信息显示
 post_meta:
-  item_text: true
-  created_at: true
-  updated_at:
-    enable: true
+  item_text: true      # 是否显示对应的文字
+  created_at: true     # 是否显示创建于
+  updated_at:          # 是否显示更新于
+    enable: true       # 
     another_day: true
-  categories: true
+  categories: true     #是否显示分类信息
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+# 字数统计设置
 symbols_count_time:
   separated_meta: true
   item_text_post: true
@@ -368,14 +370,15 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  # 代码高亮主题，主要有以下几种，normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  highlight_theme: solarized
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
@@ -680,8 +683,7 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id:
-
+add_this_id: 
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
