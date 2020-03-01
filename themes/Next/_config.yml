@@ -1038,3 +1038,45 @@ vendors:
 css: css
 js: js
 images: images
+
+#Home carousel map, from means link, img means picture
+carousel:
+  enable: true
+  item: [
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel1.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel2.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel3.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel4.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel5.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel6.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel7.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel8.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel9.jpg'
+    },
+     ]

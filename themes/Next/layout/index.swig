@@ -4,8 +4,9 @@
 {% block title %}{{ title }}{%- if theme.index_with_subtitle and subtitle %} - {{ subtitle }}{%- endif %}{% endblock %}
 
 {% block content %}
-
-  <div class="posts-expand">
+  <!--轮播图-->
+  {% include '_macro/carousel.swig' %}
+  <div class="posts-expand-home">
     {%- for post in page.posts.toArray() %}
       {{ partial('_macro/post.swig', {post: post, is_index: true}) }}
     {%- endfor %}
