@@ -1,4 +1,17 @@
+---
+title: next设置
+tags: 
+  - next
+  - hexo
+  - 美化
+---
+
+![view](./next设置/view.jpg)
+
+ <!--more-->
+
 ## next设置
+
 - 访问 `http://theme-next.iissnan.com/theme-settings.html` 网站查看官网文档设置，链接如下
  [NEXT官方文档](http://theme-next.iissnan.com/theme-settings.html "NEXT官方文档")
 <!--more-->
@@ -31,7 +44,7 @@
    icons: true #使用图标
    badges: false # 用来突出显示未读的项
  ```
- 
+
 - 如果要显示各标签中文显示的翻译，需要在`Next`主题下的`languages/zh-Hans.yml`中修改，同理，其他语言修改自身语言的内容
 
  ![language语言](./next设置/language语言.png "设置language")

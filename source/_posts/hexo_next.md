@@ -1,8 +1,12 @@
 ---
 title：测试
-
 ---
+![view](./hexo_next/view.jpg)
+
+ <!--more-->
+
 # 安装HEXO
+
 ## 安装Node.js
 - 安装hexo
 - 安装hexo之前，需要安装Node.js和Git
@@ -80,6 +84,7 @@ npm config set https-proxy http://127.0.0.1:8888
 
 - 使用hexo init命令成功后，文件目录如下
   
+
 ![hexo成功后文件目录](./hexo_next/hexo_file.png)
 
 - 在git Bash中，使用如下命令启动hexo，代表着hexo的使用已经初步成功了
@@ -257,7 +262,7 @@ hexo.extend.filter.register('after_post_render', function(data){
     }
   }
 });
- ```   
+ ```
 # 博客的配置文件介绍
 
 ```
