@@ -424,7 +424,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host: fonts.lug.ustc.edu.cn
@@ -1045,38 +1045,18 @@ carousel:
   item: [
     {
       'link': 'www.baidu.com',
-      'img': '/carousel/carousel1.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel2.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel3.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
       'img': '/carousel/carousel4.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel5.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel6.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel7.jpg'
-    },
-    {
-      'link': 'www.baidu.com',
-      'img': '/carousel/carousel8.jpg'
     },
     {
       'link': 'www.baidu.com',
       'img': '/carousel/carousel9.jpg'
     },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel12.jpg'
+    },
+    {
+      'link': 'www.baidu.com',
+      'img': '/carousel/carousel13.jpg'
+    }
      ]
