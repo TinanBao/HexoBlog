@@ -12,9 +12,9 @@
   {%- endif %}
 
   <article itemscope itemtype="http://schema.org/Article">
-    <header class="my-post-header">
+    <header class="post-header">
 
-      <div class="my-post-meta">
+      <div class="post-meta">
         <time itemprop="dateCreated"
               datetime="{{ moment(post.date).format() }}"
               content="{{ date(post.date, config.date_format) }}">
@@ -28,7 +28,7 @@
           {%- set postText = post.title or post.link %}
           {{ next_url(post.link, postText + postTitleIcon, {class: 'post-title-link post-title-link-external', itemprop: 'url'}) }}
         {% else %}
-          <a class="my-post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
+          <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
             <span itemprop="name">{{ post.title or __('post.untitled') }}</span>
           </a>
         {%- endif %}
