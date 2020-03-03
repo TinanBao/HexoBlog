@@ -1044,19 +1044,19 @@ carousel:
   enable: true
   item: [
     {
-      'link': 'www.baidu.com',
+      'link': '/2020/03/02/实验1第二题-印章管理办法/',
       'img': '/carousel/carousel4.jpg'
     },
     {
-      'link': 'www.baidu.com',
+      'link': '/2020/03/01/Windows下Office2010_2016安装及破解/',
       'img': '/carousel/carousel9.jpg'
     },
     {
-      'link': 'www.baidu.com',
+      'link': '/2020/03/02/实验1第三题-陕西十大怪/',
       'img': '/carousel/carousel12.jpg'
     },
     {
-      'link': 'www.baidu.com',
+      'link': '/2020/03/02/实验1第一题-文件操作/',
       'img': '/carousel/carousel13.jpg'
     }
      ]

@@ -7,7 +7,7 @@ tags:
 - "office安装激活"
 ---
 
-![view](./ Windows下Office2010_2016安装及破解/view.jpg)
+![view](Windows下Office2010_2016安装及破解/view.jpg)
 
 <!--more-->
 # Windows下Office2010_2016安装及破解
