@@ -33,7 +33,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Site Information Settings
 # See: https://theme-next.org/docs/getting-started/
@@ -59,7 +58,7 @@ footer:
     color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright: 
+  copyright:
 
   powered:
     # 页脚底部显示由Hexo驱动及版本信息
@@ -92,9 +91,8 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
-  language:
-
+  post: true
+  language: deed.zh
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -108,7 +106,6 @@ scheme: Mist
 
 # Dark Mode
 darkmode: false
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -133,7 +130,6 @@ menu:
 menu_settings:
   icons: true
   badges: false
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -209,7 +205,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  Title: http://baotienan.top
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -233,7 +229,6 @@ chat:
   icon: comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # See: https://theme-next.org/docs/theme-settings/posts
@@ -249,12 +244,12 @@ read_more_btn: true
 # Post meta display settings
 # 文章提示信息显示
 post_meta:
-  item_text: true      # 是否显示对应的文字
-  created_at: true     # 是否显示创建于
-  updated_at:          # 是否显示更新于
-    enable: true       # 
+  item_text: true # 是否显示对应的文字
+  created_at: true # 是否显示创建于
+  updated_at: # 是否显示更新于
+    enable: true #
     another_day: true
-  categories: true     #是否显示分类信息
+  categories: true #是否显示分类信息
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
@@ -315,7 +310,6 @@ post_edit:
 # Available values: left | right | false
 post_navigation: left
 
-
 # ---------------------------------------------------------------
 # Custom Page Settings
 # See: https://theme-next.org/docs/theme-settings/custom-pages
@@ -342,7 +336,6 @@ calendar:
   singleEvents: true
   maxResults: 250
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -354,7 +347,7 @@ text_align:
   mobile: justify
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
 android_chrome_color: "#222"
@@ -409,7 +402,6 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # See: https://theme-next.org/docs/theme-settings/#Fonts-Customization
@@ -424,10 +416,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host: fonts.lug.ustc.edu.cn
+  host: https://fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -449,7 +441,7 @@ font:
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
+    family: Roboto Slab
     size:
 
   # Font settings for posts (.post-body).
@@ -460,8 +452,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-
+    family: Roboto Mono
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -503,7 +494,6 @@ baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
-
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -548,7 +538,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -576,7 +566,6 @@ quicklink:
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   ignores:
 
-
 # ---------------------------------------------------------------
 # Comments Settings
 # See: https://theme-next.org/docs/third-party-services/comments
@@ -592,7 +581,7 @@ comments:
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
@@ -641,7 +630,7 @@ valine:
   avatar: wavatar # Gravatar style
   guest_info: nick,mail # nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
+  language: "zh-cn" # Language, available values: en, zh-cn
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
@@ -667,7 +656,6 @@ gitalk:
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.org/docs/third-party-services/post-widgets
@@ -682,7 +670,7 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: 
+add_this_id:
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -739,7 +727,6 @@ busuanzi_count:
   post_views: true
   post_views_icon: eye
 
-
 # ---------------------------------------------------------------
 # Search Services
 # See: https://theme-next.org/docs/third-party-services/search-services
@@ -773,7 +760,6 @@ local_search:
 # Swiftype Search API Key
 swiftype_key:
 
-
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.org/docs/third-party-services/chat-services
@@ -794,7 +780,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -836,7 +821,6 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -869,7 +853,7 @@ pace:
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: center-circle 
+  theme: center-circle
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
@@ -898,7 +882,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -1042,21 +1025,22 @@ images: images
 #Home carousel map, from means link, img means picture
 carousel:
   enable: true
-  item: [
-    {
-      'link': '/2020/03/02/实验1第二题-印章管理办法/',
-      'img': '/carousel/carousel4.jpg'
-    },
-    {
-      'link': '/2020/03/01/Windows下Office2010_2016安装及破解/',
-      'img': '/carousel/carousel9.jpg'
-    },
-    {
-      'link': '/2020/03/02/实验1第三题-陕西十大怪/',
-      'img': '/carousel/carousel12.jpg'
-    },
-    {
-      'link': '/2020/03/02/实验1第一题-文件操作/',
-      'img': '/carousel/carousel13.jpg'
-    }
-     ]
+  item:
+    [
+      {
+        "link": "/2020/03/02/实验1第二题-印章管理办法/",
+        "img": "/carousel/carousel4.jpg",
+      },
+      {
+        "link": "/2020/03/01/Windows下Office2010_2016安装及破解/",
+        "img": "/carousel/carousel9.jpg",
+      },
+      {
+        "link": "/2020/03/02/实验1第三题-陕西十大怪/",
+        "img": "/carousel/carousel12.jpg",
+      },
+      {
+        "link": "/2020/03/02/实验1第一题-文件操作/",
+        "img": "/carousel/carousel13.jpg",
+      },
+    ]
