@@ -38,11 +38,44 @@ ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496
 
 ![使用解压软件](./Windows下Office2010_2016安装及破解/压缩软件解压下载的文件.png)
 
-4. 在文件夹内找到`setup.exe`应用程序，点击安装`office软件`，此处以`office2016`为例，`office2010`和`2016`安装方式一样，不需要更改内容，一路安装下去即可。
+4. **office 2016安装-->>**在文件夹内找到`setup.exe`应用程序，点击安装`office软件`，此处以`office2016`为例，`office2010`和`2016`安装方式一样，不需要更改内容，一路安装下去即可。
 
 ![安装office软件](./Windows下Office2010_2016安装及破解/找到安装文件开始安装.png)
 
 ![安装程序](./Windows下Office2010_2016安装及破解/office2016安装1.png)
+
+5. **office 2010安装-->>**在文件夹下找到**setup.exe**应用程序， 点击安装，跳出**输入密钥**界面，在下面的密钥中选择一个输入进去，**如果已经无效，则更换一个**。
+
+- **注意**：密钥输入**成功**后，就**不需要**再进行激活破解。
+
+```
+J33GT-XVVYK-VHBBC-VY7FB-MTQ4C
+GRPWH-7CDHQ-K3G3C-JH2KX-C88H8
+6CCCX-Y93YP-3WQGT-YCKFW-QTTT7
+6QFDX-PYH2G-PPYFD-C7RJM-BBKQ8
+BDD3G-XM7FB-BD2HM-YK63V-VQFDK
+VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+DBXYD-TF477-46YM4-W74MH-6YDQ8
+VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+7X9XM-HGMB4-TMGHY-9VDQV-R8CGB
+HV7BJ-R6GCT-VHBXD-YH4FD-GTH2T
+C6YV2-6CKK8-VF7JB-JJCFM-HXJ2D
+GCXQJ-KFYBG-XR77F-XF3K8-WT7QW
+23TGP-FTKV6-HTHGD-PDWWP-MWCRQ
+QY89T-88PV8-FD7H7-CJVCQ-GJ492
+GDQ98-KW37Y-MVR84-246FH-3T6BG
+FGVT2-GBV2M-YG4BD-JM823-XJYRY
+TTWC8-Y8KD3-YD77J-RGWTF-DTG2V
+GFWF2-R8H99-P4YWF-D2HY9-6PPXJ
+4CPF7-YT4G4-3K9YH-VM3RB-7MYX3
+KNTPD-3G6GF-3GQK7-D2248-BWRQP
+4HK9Q-K438G-GYJG7-WR8KW-9TBD8
+FMWMQ-H8N8X-98WYT-GQVM8-TQ8DP
+```
+
+![点击setup](Windows下Office2010_2016安装及破解/office2010安装.png)
+
+![输入密钥界面](Windows下Office2010_2016安装及破解/office2010安装需要密钥.png)
 
 ## 激活office软件
 
