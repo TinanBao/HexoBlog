@@ -18,10 +18,10 @@
   }
   .tag-cloud-tags a{
     border-radius: 6px;
-    padding-right: 16px;
-    padding-left: 10px;
-    margin: 8px 5px 0px 0px;
-    font-size: 16px !important;
+    padding-right: 8px;
+    padding-left: 4px;
+    margin: 0px;
+    font-size: 14px !important;
     color: #fff !important;
   }
   .tag-cloud-tags a:before{
