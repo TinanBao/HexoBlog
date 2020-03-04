@@ -152,7 +152,7 @@ sidebar:
   #  - always  始终显示侧边栏
   #  - hide    隐藏侧边栏,即不打开侧边栏，但是显示侧边栏按钮
   #  - remove  移除侧边栏
-  display: post
+  display: hide
 
   # Sidebar padding in pixels.
   # 侧边栏像素填充大小
