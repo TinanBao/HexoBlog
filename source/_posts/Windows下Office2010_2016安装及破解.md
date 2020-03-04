@@ -32,17 +32,17 @@ ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496
 
 2. 复制链接到迅雷中下载，操作方式如下(如果已经复制，在打开迅雷后迅雷会自动检测跳出下载界面)。
 
-![迅雷下载文件](Windows下Office2010_2016安装及破解/迅雷下载文件.png)
+![迅雷下载文件](./Windows下Office2010_2016安装及破解/迅雷下载文件.png)
 
 3. 下载完成后，使用压缩软件解压文件。
 
-![使用解压软件](Windows下Office2010_2016安装及破解/压缩软件解压下载的文件.png)
+![使用解压软件](./Windows下Office2010_2016安装及破解/压缩软件解压下载的文件.png)
 
 4. 在文件夹内找到`setup.exe`应用程序，点击安装`office软件`，此处以`office2016`为例，`office2010`和`2016`安装方式一样，不需要更改内容，一路安装下去即可。
 
-![安装office软件](Windows下Office2010_2016安装及破解/找到安装文件开始安装.png)
+![安装office软件](./Windows下Office2010_2016安装及破解/找到安装文件开始安装.png)
 
-![安装程序](Windows下Office2010_2016安装及破解/office2016安装1.png)
+![安装程序](./Windows下Office2010_2016安装及破解/office2016安装1.png)
 
 ## 激活office软件
 
@@ -51,27 +51,27 @@ ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496
 
 - **注意：**若已经关闭了windows病毒防护，则跳过以下步骤，直接解压压缩包打开激活软件即可。
 
-![新建文件夹存放](Windows下Office2010_2016安装及破解/新建文件夹放入压缩包.png)
+![新建文件夹存放](./Windows下Office2010_2016安装及破解/新建文件夹放入压缩包.png)
 
 3. **`win10系统`**电脑找到左下角windows图标，**左键**点击图标，找到**设置图标**，**左键**点击设置按钮。
 
 - **注意：**此处的设置是**win10系统**的设置，**win7系统**设置请往下看。
 
-![找到系统设置](Windows下Office2010_2016安装及破解/windows图标设置选项.png)
+![找到系统设置](./Windows下Office2010_2016安装及破解/windows图标设置选项.png)
 
 
 
 4. 找到**更新和安全**，点击打开。
 
-![找到更新额安全](Windows下Office2010_2016安装及破解/选择更新和安全.png)
+![找到更新额安全](./Windows下Office2010_2016安装及破解/选择更新和安全.png)
 
 5. 选择**Windows Defender**，找到添加排除项。
 
-![找到排除项](Windows下Office2010_2016安装及破解/windowsdefender添加排除项.png)
+![找到排除项](./Windows下Office2010_2016安装及破解/windowsdefender添加排除项.png)
 
 6. 添加**激活软件所在的文件夹**为排除项。
 
-![添加激活软件所在文件夹](Windows下Office2010_2016安装及破解/添加排除文件夹.png)
+![添加激活软件所在文件夹](./Windows下Office2010_2016安装及破解/添加排除文件夹.png)
 
 - **注意：**以下到**第7步**设置之前，是**win7系统**的设置，如果你的电脑是**win10系统**，则**直接跳过**。
 
@@ -79,47 +79,47 @@ ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496
 
   - 点击左下角的**windows图标**，选择**控制面板**选项。
 
-  ![win打开控制面板](Windows下Office2010_2016安装及破解/win7添加排除项.png)
+  ![win打开控制面板](./Windows下Office2010_2016安装及破解/win7添加排除项.png)
 
   - 将查看方式选择为**小图标**，选择**Windwos Defender**选项。
 
-  ![win打开控制面板](D:\HexoBlog\HexoBlog\source\_posts\Windows下Office2010_2016安装及破解\win7添加排除项2.png)
+  ![win打开控制面板](./Windows下Office2010_2016安装及破解/win7添加排除项2.png)
 
   - 打开窗体中**工具**按钮，选择工具和设置中的**选项**，打开选项界面。
 
-  ![win打开控制面板](Windows下Office2010_2016安装及破解/win7添加排除项3.png)
+  ![win打开控制面板](./Windows下Office2010_2016安装及破解/win7添加排除项3.png)
 
   - 选择**选项**->**排除的文件和文件夹**->**添加**按钮->选择**激活软件压缩包所在文件夹**。
 
-  ![win打开控制面板](Windows下Office2010_2016安装及破解/win7添加排除项4.png)
+  ![win打开控制面板](./Windows下Office2010_2016安装及破解/win7添加排除项4.png)
 
 7. 添加完成后，在文件夹内解压激活软件。
 
-![文件夹内解压](Windows下Office2010_2016安装及破解\解压激活软件.png)
+![文件夹内解压](./Windows下Office2010_2016安装及破解/解压激活软件.png)
 
 8. **右键**以**管理员身份**运行激活程序。
 
-![右键以管理员身份运行](Windows下Office2010_2016安装及破解/右键以管理员身份运行.png)
+![右键以管理员身份运行](./Windows下Office2010_2016安装及破解/右键以管理员身份运行.png)
 
 9. 在软件激活选项中，我们可以选择**选项1后再执行选项2**，或者**直接执行选项3**，完成激活office。激活完成后第一次打开软件会弹出一个输入邮箱的选项，关掉即可。
 
-![软件缓冲界面](Windows下Office2010_2016安装及破解/激活软件启动.png)
+![软件缓冲界面](./Windows下Office2010_2016安装及破解/激活软件启动.png)
 
 - 执行选项1后执行选项2。
 
-![选项1选项2](Windows下Office2010_2016安装及破解/执行第一步第二步.png)
+![选项1选项2](./Windows下Office2010_2016安装及破解/执行第一步第二步.png)
 
 - 或者直接执行选项3。
 
-![直接执行选项3](Windows下Office2010_2016安装及破解/直接执行第三步.png)
+![直接执行选项3](./Windows下Office2010_2016安装及破解/直接执行第三步.png)
 
 - 激活等待。
 
-![激活等待](Windows下Office2010_2016安装及破解/激活进度条.png)
+![激活等待](./Windows下Office2010_2016安装及破解/激活进度条.png)
 
 - 激活成功，到180天后会自动续期激活。
 
-![激活成功](Windows下Office2010_2016安装及破解/激活成功.png)
+![激活成功](./Windows下Office2010_2016安装及破解/激活成功.png)
 
 - **注意：**此激活软件同样也可以用来激活windows系统。
 
@@ -129,24 +129,20 @@ ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496
 
    - 在百度中搜索`msdn`关键字，或者直接打开 [MSDN链接](https://msdn.itellyou.cn/)：
 
-     ![百度搜索msdn](Windows下Office2010_2016安装及破解/百度搜索2010.png)
+     ![百度搜索msdn](./Windows下Office2010_2016安装及破解/百度搜索2010.png)
 
    - 打开网站，找到`应用选项`:
 
-     ![找到网站的应用选项](Windows下Office2010_2016安装及破解/找到应用程序选项.png)
+     ![找到网站的应用选项](./Windows下Office2010_2016安装及破解/找到应用程序选项.png)
 
    - 在网站中找到`office 2010、2016`等软件资源：
 
-     ![找到office 2010软件资源](Windows下Office2010_2016安装及破解/找到office2010-2016.png)
+     ![找到office 2010软件资源](./Windows下Office2010_2016安装及破解/找到office2010-2016.png)
 
    - 在网站中找到想要安装的**office 2010、2016等**版本，此处选择的版本为`Office Professional Plus 2010 with Service Pack 1 (x86 and x64) - DVD (Chinese-Simplified)`示例：
 
-     ![找到office2010资源](Windows下Office2010_2016安装及破解/找到office2010资源.png)
+     ![找到office2010资源](./Windows下Office2010_2016安装及破解/找到office2010资源.png)
 
    - 打开`详细信息`，找到资源的下载地址，并将地址复制后在迅雷中新建下载：
 
-     ![找到资源下载地址](Windows下Office2010_2016安装及破解/复制链接粘贴到迅雷.png)
-
-     
-
-
+     ![找到资源下载地址](./Windows下Office2010_2016安装及破解/复制链接粘贴到迅雷.png)

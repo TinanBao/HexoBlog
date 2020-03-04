@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site 网站的信息
-title: TinanBao             #网站的标题
-subtitle: 'Tinanbao的个人博客'            #网站的副标题
-description: '交给时间，都是最好的安排'         #网站的描述信息
-keywords: Next,计算机基础,计算机一级,计算机二级,操作系统               #网站的关键词，使用英文状态下半角逗号 ','隔开，分隔多个关键词。
-author: TinanBao        # 网站的作者
-language: zh-CN            # 网站所使用的语言
-timezone: ''            # 网站的时区，请参考时区列表设置，国内可以使用 Asia/Shanghai。
+title: TinanBao #网站的标题
+subtitle: "Tinanbao的个人博客" #网站的副标题
+description: "交给时间，都是最好的安排" #网站的描述信息
+keywords: Next,计算机基础,计算机一级,计算机二级,操作系统 #网站的关键词，使用英文状态下半角逗号 ','隔开，分隔多个关键词。
+author: TinanBao # 网站的作者
+language: zh-CN # 网站所使用的语言
+timezone: "" # 网站的时区，请参考时区列表设置，国内可以使用 Asia/Shanghai。
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://baotienan.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -32,32 +32,32 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md      # 新文章的名字，默认值 :title.md，注意冒号。
-default_layout: post          # 预设布局
-titlecase: false              # 把标题转换为 title case
-external_link:                # 在新标签中打开链接，有以下三个属性
-  enable: true                # 在新标签中打开链接
-  field: site                 # 对整个网站（site）生效或仅对文章（post）生效，有site和post两个值
-  exclude: ''                 # 需要排除的域名。主域名和子域名如 www 需分别配置
-filename_case: 0              # 把文件名称转换为 (1) 小写或 (2) 大写，0不转换
-render_drafts: false          # 显示草稿
-post_asset_folder: true      # 启动 Asset 文件夹，主要配合图片、音频、视频等使用
-relative_link: false          # 把链接改为与根目录的相对位址
-future: true                  # 显示未来的文章
-highlight:                    # 代码块的设置，有以下的属性
-  enable: true                # 开启代码块高亮
-  line_number: true           #　显示行号
-  auto_detect: false          # 如果未指定语言，则启用自动检测，此处指代码的语言
-  tab_replace: ''             # 用 n 个空格替换 tabs；如果值为空，则不会替换 tabs
-  wrap: true                  # Wrap the code block in <table>
-  hljs: false                 # Use the hljs-* prefix for CSS classes
+new_post_name: :title.md # 新文章的名字，默认值 :title.md，注意冒号。
+default_layout: post # 预设布局
+titlecase: false # 把标题转换为 title case
+external_link: # 在新标签中打开链接，有以下三个属性
+  enable: true # 在新标签中打开链接
+  field: site # 对整个网站（site）生效或仅对文章（post）生效，有site和post两个值
+  exclude: "" # 需要排除的域名。主域名和子域名如 www 需分别配置
+filename_case: 0 # 把文件名称转换为 (1) 小写或 (2) 大写，0不转换
+render_drafts: false # 显示草稿
+post_asset_folder: true # 启动 Asset 文件夹，主要配合图片、音频、视频等使用
+relative_link: false # 把链接改为与根目录的相对位址
+future: true # 显示未来的文章
+highlight: # 代码块的设置，有以下的属性
+  enable: true # 开启代码块高亮
+  line_number: true #　显示行号
+  auto_detect: false # 如果未指定语言，则启用自动检测，此处指代码的语言
+  tab_replace: "" # 用 n 个空格替换 tabs；如果值为空，则不会替换 tabs
+  wrap: true # Wrap the code block in <table>
+  hljs: false # Use the hljs-* prefix for CSS classes
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -99,6 +99,13 @@ theme: Next # 刚刚存放NEXT主题的文件夹名称
 ## Docs: https://hexo.io/docs/deployment.html
 # 将其部署到github上
 deploy:
-  type: 'git'
+  type: "git"
   repository: git@github.com:TinanBao/TinanBao.github.io.git
   branch: master
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: NHLp49B5efMFFT0pxGXPGIpJ-gzGzoHsz
+  app_key: QME9aXdmDgqT0aMf70Pj2dM1
+  username: # Will be asked while deploying if is left blank
+  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
