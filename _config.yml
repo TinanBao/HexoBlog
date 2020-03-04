@@ -109,3 +109,15 @@ leancloud_counter_security:
   app_key: QME9aXdmDgqT0aMf70Pj2dM1
   username: # Will be asked while deploying if is left blank
   password: # Recommmended to be left blank. Will be asked while deploying if is left blank
+
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-wanko  #模板目录，在node_modules里
+  display:
+    position: right
+    width: 150 
+    height: 300
+  mobile:
+    show: false  #是否在手机进行显示
