@@ -33,7 +33,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Site Information Settings
 # See: https://theme-next.org/docs/getting-started/
@@ -48,7 +47,7 @@ favicon:
 
 footer:
   # 网站开始运行的年份
-  since: 2020
+  since: 2020 - now
 
   # 网站页脚的图标
   icon:
@@ -59,7 +58,7 @@ footer:
     color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright: 
+  copyright:
 
   powered:
     # 页脚底部显示由Hexo驱动及版本信息
@@ -95,7 +94,6 @@ creative_commons:
   post: false
   language:
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -108,7 +106,6 @@ scheme: Mist
 
 # Dark Mode
 darkmode: false
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -134,7 +131,6 @@ menu_settings:
   icons: true
   badges: false
 
-
 # ---------------------------------------------------------------
 # Sidebar Settings
 # See: https://theme-next.org/docs/theme-settings/sidebar
@@ -156,7 +152,7 @@ sidebar:
   #  - always  始终显示侧边栏
   #  - hide    隐藏侧边栏,即不打开侧边栏，但是显示侧边栏按钮
   #  - remove  移除侧边栏
-  display: hide
+  display: post
 
   # Sidebar padding in pixels.
   # 侧边栏像素填充大小
@@ -233,7 +229,6 @@ chat:
   icon: comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # See: https://theme-next.org/docs/theme-settings/posts
@@ -249,19 +244,19 @@ read_more_btn: true
 # Post meta display settings
 # 文章提示信息显示
 post_meta:
-  item_text: true      # 是否显示对应的文字
-  created_at: true     # 是否显示创建于
-  updated_at:          # 是否显示更新于
-    enable: true       # 
+  item_text: false # 是否显示对应的文字
+  created_at: true # 是否显示创建于
+  updated_at: # 是否显示更新于
+    enable: false #
     another_day: true
-  categories: true     #是否显示分类信息
+  categories: true #是否显示分类信息
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 # 字数统计设置
 symbols_count_time:
-  separated_meta: true
-  item_text_post: true
+  separated_meta: false
+  item_text_post: false
   item_text_total: false
   awl: 4
   wpm: 275
@@ -315,7 +310,6 @@ post_edit:
 # Available values: left | right | false
 post_navigation: left
 
-
 # ---------------------------------------------------------------
 # Custom Page Settings
 # See: https://theme-next.org/docs/theme-settings/custom-pages
@@ -341,7 +335,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -409,7 +402,6 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # See: https://theme-next.org/docs/theme-settings/#Fonts-Customization
@@ -424,10 +416,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host: fonts.lug.ustc.edu.cn
+  host: https://fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -461,7 +453,6 @@ font:
   codes:
     external: true
     family:
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -503,7 +494,6 @@ baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
-
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -575,7 +565,6 @@ quicklink:
   # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   ignores:
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -667,7 +656,6 @@ gitalk:
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.org/docs/third-party-services/post-widgets
@@ -682,7 +670,7 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: 
+add_this_id:
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -719,8 +707,6 @@ leancloud_visitors:
   security: false
   betterPerformance: false
 
-
-
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
 # Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.
@@ -733,14 +719,13 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
   post_views: true
   post_views_icon: eye
-
 
 # ---------------------------------------------------------------
 # Search Services
@@ -775,7 +760,6 @@ local_search:
 # Swiftype Search API Key
 swiftype_key:
 
-
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.org/docs/third-party-services/chat-services
@@ -796,7 +780,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -838,7 +821,6 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -871,7 +853,7 @@ pace:
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: center-circle 
+  theme: center-circle
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
@@ -900,7 +882,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -1044,21 +1025,22 @@ images: images
 #Home carousel map, from means link, img means picture
 carousel:
   enable: true
-  item: [
-    {
-      'link': '/2020/03/02/实验1第二题-印章管理办法/',
-      'img': '/carousel/carousel4.jpg'
-    },
-    {
-      'link': '/2020/03/01/Windows下Office2010_2016安装及破解/',
-      'img': '/carousel/carousel9.jpg'
-    },
-    {
-      'link': '/2020/03/02/实验1第三题-陕西十大怪/',
-      'img': '/carousel/carousel12.jpg'
-    },
-    {
-      'link': '/2020/03/02/实验1第一题-文件操作/',
-      'img': '/carousel/carousel13.jpg'
-    }
-     ]
+  item:
+    [
+      {
+        "link": "/2020/03/02/实验1第二题-印章管理办法/",
+        "img": "/carousel/carousel4.jpg",
+      },
+      {
+        "link": "/2020/03/01/Windows下Office2010_2016安装及破解/",
+        "img": "/carousel/carousel9.jpg",
+      },
+      {
+        "link": "/2020/03/02/实验1第三题-陕西十大怪/",
+        "img": "/carousel/carousel12.jpg",
+      },
+      {
+        "link": "/2020/03/02/实验1第一题-文件操作/",
+        "img": "/carousel/carousel13.jpg",
+      },
+    ]
