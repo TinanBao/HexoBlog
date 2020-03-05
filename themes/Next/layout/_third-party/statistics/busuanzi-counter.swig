@@ -1,7 +1,6 @@
 {%- if theme.busuanzi_count.enable %}
 <div class="busuanzi-count">
-  <!--<script{{ pjax }} async src="/js/busuanzi.pure.mini.js"></script>!-->
-<script {{ pjax }} async src="/js/busuanzi.pure.mini.js"></script>
+  <script{{ pjax }} async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   {%- if theme.busuanzi_count.total_visitors %}
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
@@ -10,15 +9,15 @@
       <span class="site-uv" title="{{ __('footer.total_visitors') }}">
         本站总访客
         <span id="busuanzi_value_site_uv"></span>
-        人
+        人 |
       </span>
     </span>
   {%- endif %}
-
+<!--
   {%- if theme.busuanzi_count.total_visitors and theme.busuanzi_count.total_views %}
     <span class="post-meta-divider">|</span>
   {%- endif %}
-
+-->
   {%- if theme.busuanzi_count.total_views %}
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
