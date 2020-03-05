@@ -52,10 +52,10 @@ footer:
   # 网站页脚的图标
   icon:
     # 我们可以到如下地址查看图标: https://fontawesome.com/v4.7.0/icons/
-    name: heart # 图标的名称
+    name: university # 图标的名称
     animated: true # 图标是否跳动
     # 图标的颜色，使用16进制设置
-    color: "#ff0000"
+    color: "#fff"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:

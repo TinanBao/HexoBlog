@@ -121,3 +121,12 @@ live2d:
     height: 300
   mobile:
     show: false # 手机中是否展示
+
+#显示阅读时间
+symbols_count_time:
+  #文章内是否显示
+  symbols: false
+  time: false
+  # 网页底部是否显示
+  total_symbols: false
+  total_time: false
