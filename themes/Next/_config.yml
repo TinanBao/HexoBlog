@@ -1028,20 +1028,20 @@ carousel:
   item:
     [
       {
-        "link": "/2020/03/02/实验1第二题-印章管理办法/",
-        "img": "/carousel/carousel4.jpg",
+        "link": "/2020/03/15/实验2第1题-工资/",
+        "img": "/carousel/实验2第1题.jpg",
       },
+      {
+        "link": "/2020/03/15/实验2第2题-工资/",
+        "img": "/carousel/实验2第2题.jpg",
+      },
+      {
+        "link": "/2020/03/15/实验2第3题-图书借阅/",
+        "img": "/carousel/实验2第3题.jpg",
+      },    
       {
         "link": "/2020/03/01/Windows下Office2010_2016安装及破解/",
         "img": "/carousel/carousel9.jpg",
-      },
-      {
-        "link": "/2020/03/02/实验1第三题-陕西十大怪/",
-        "img": "/carousel/carousel12.jpg",
-      },
-      {
-        "link": "/2020/03/02/实验1第一题-文件操作/",
-        "img": "/carousel/carousel13.jpg",
       },
       {
         "link": "/2020/03/06/Windows实用软件-压缩软件/",
