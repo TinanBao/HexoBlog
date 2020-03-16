@@ -6,7 +6,7 @@ tags:
 - "实用软件"
 ---
 
-![view](Windows实用软件-压缩软件/bandizip-view.jpg)
+![view](http://q79y7qpzm.bkt.clouddn.com/blog_picgo/bandizip-view.jpg)
 
 <!--more-->
 # Windows实用软件-压缩软件
@@ -33,15 +33,15 @@ tags:
 
 - 软件主界面截图。
 
-![主界面](Windows实用软件-压缩软件/Bandizip0.png)
+![主界面](http://q79y7qpzm.bkt.clouddn.com/blog_picgo/Bandizip0.png)
 
 - 解压缩右键界面列表截图。
 
-![解压列表](Windows实用软件-压缩软件/Bandizip1.png)
+![解压列表](http://q79y7qpzm.bkt.clouddn.com/blog_picgo/Bandizip1.png)
 
 - 文件夹右键压缩列表截图。
 
-![压缩列表](Windows实用软件-压缩软件/Bandizip2.png)
+![压缩列表](http://q79y7qpzm.bkt.clouddn.com/blog_picgo/Bandizip2.png)
 
 ## 下载BandiZip
 

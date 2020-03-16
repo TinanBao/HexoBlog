@@ -74,8 +74,8 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: 苏ICP备20002438号
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
@@ -1029,26 +1029,26 @@ carousel:
     [
       {
         "link": "/2020/03/15/实验2第1题-工资/",
-        "img": "/carousel/实验2第1题.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/实验2第1题.jpg",
       },
       {
         "link": "/2020/03/15/实验2第2题-工资/",
-        "img": "/carousel/实验2第2题.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/实验2第2题.jpg",
       },
       {
         "link": "/2020/03/15/实验2第3题-图书借阅/",
-        "img": "/carousel/实验2第3题.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/实验2第3题.jpg",
       },    
       {
         "link": "/2020/03/01/Windows下Office2010_2016安装及破解/",
-        "img": "/carousel/carousel9.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/20200316192011.jpg",
       },
       {
         "link": "/2020/03/06/Windows实用软件-压缩软件/",
-        "img": "/carousel/bandizip-view.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/bandizip-view.jpg",
       },
       {
         "link": "/2020/03/06/WindowsWindows实用软件-音乐下载/",
-        "img": "/carousel/luoxue-view.jpg",
+        "img": "http://q79y7qpzm.bkt.clouddn.com/blog_picgo/luoxue-view.jpg",
       }
     ]
